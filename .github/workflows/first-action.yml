@@ -7,6 +7,10 @@ jobs:
     steps:
       - name: Print greeting
         run: echo "Hello World!"
-        
+      - name: Print multipleline
+        run: |
+          echo "First output"
+          ls
+          echo "Second output"
       - name: Print goodbye
         run: echo "Done - bye!"
