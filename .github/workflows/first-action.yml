@@ -10,7 +10,7 @@ jobs:
       - name: Print multipleline
         run: |
           echo "First output"
-          ls
+          ls -la
           echo "Second output"
       - name: Print goodbye
         run: echo "Done - bye!"
